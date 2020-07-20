@@ -35,5 +35,6 @@ for($i = $start; $i <= $end; $i++){          //「$i < $end」だと未満の為
     echo $i;                                //「;」がない
   }
 }
+
 echo "\n";
 ?>
