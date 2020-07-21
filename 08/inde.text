@@ -1,0 +1,16 @@
+//1.ControllerとRoutingについてわからないことを書き出してメンターに質問してみましょう。
+　・ユーザーからの要求をルーティングで受け取る際にどのフォルダ内のファイルでその処理をしているのか。
+　
+//2.Controllerの役割について、説明してください。
+　ユーザーからの要求に応じてModelからデータを受け取ったり保存したりする。
+その結果を持ってViewと連携してユーザーの欲する処理を行う。
+//3.ControllerとRoutingの役割について、説明してください。
+
+//4.【応用】 artisanを使って、Admin/ProfileControllerを作成しましょう。
+以下のパス先に登録してあります。
+https://github.com/yutmtsm/Laravel/blob/master/app/Http/Controllers/Admin
+
+//5.【応用】 Admin/ProfileControllerに、以下のadd, create, edit, update それぞれのActionを追加してみましょう。
+以下のパス先に登録してあります。
+https://github.com/yutmtsm/Laravel/blob/master/app/Http/Controllers/Admin/ProfileController.php
+
