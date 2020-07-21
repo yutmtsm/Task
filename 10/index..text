@@ -1,0 +1,14 @@
+1 Viewは何をするところでしょうか。簡潔に説明してみてください。
+　Controllerの指示によって アクセスしてきたユーザーのブラウザに表示するデータを生成する ところです。
+　
+2 プログラマーがHTMLを書かずにPHPなどのプログラミング言語やフレームワークを使う必要があるのはどういった理由でしょうか。
+　HTMLやCSSだけでは、決まったものしか表示できない為、PHPなどのプログラミング言語が必要です。
+　例えば、将棋の試合の盤面をリアルタイムで表示するサイトがあったとした時に、HTML等だけでは更新ができない。
+　PHP等を用いて、DBよりデータを取得し、動的に処理する必要がある為です。
+
+3 【応用】 前々章でAdmin/ProfileControllerのadd Action, edit Action に次のように記述しました。
+　add Action　：admin/profile/create.blade.php
+　edit Action ：admin/profile/edit.blade.php
+
+4 【応用】 3. の答えを実際に作成してみましょう。また、作成したbladeファイルにhtmlで記述して装飾してみましょう。
+https://github.com/yutmtsm/Laravel/tree/master/resources/views/admin/profile
