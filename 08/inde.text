@@ -4,7 +4,11 @@
 //2.Controllerの役割について、説明してください。
 　ユーザーからの要求に応じてModelからデータを受け取ったり保存したりする。
 その結果を持ってViewと連携してユーザーの欲する処理を行う。
+
 //3.ControllerとRoutingの役割について、説明してください。
+　処理の流れとしては、ユーザーからの要求をRoutingが受け取り、それをControllerに渡している。
+内容としては、例えば、ユーザーが製品に関するページを要求してきた場合、Routingはそれに合ったController内の
+Actionに渡す。Action内では、「return View('/製品);」で製品ページに飛ばすなどの処理をしている。
 
 //4.【応用】 artisanを使って、Admin/ProfileControllerを作成しましょう。
 以下のパス先に登録してあります。
