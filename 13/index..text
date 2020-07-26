@@ -1,0 +1,20 @@
+1.GETメソッドとPOSTメソッドについて調べ、どのような違いがあるか説明してください。
+ GETメソッド：サーバーに対して指定したものを要求する。指定したURLの内容を取り出したり、フォームのGETリクエストに対して使う。
+ POSTメソッド：URLに対して情報を要求するだけでなく、クライアントからさまざまなデータを送信することができます。
+ 
+2.【応用】 GET/POSTメソッド以外にどのようなメソッドがあるか、またどのように使われるかを説明してください。
+ PUT：データの更新に使う。
+ PATCH：PUTよりも限定的な範囲で更新を行う。
+ DELETE：データの削除を行う。
+ 
+3.【応用】 routes/web.php を編集して、 admin/profile/create に postメソッドでアクセスしたら ProfileController の create Action に割り当てるように設定してください。
+ https://gyazo.com/193b4a42e95d1596ce5fa4186229b1c7
+
+4.【応用】 resources/views/admin/profile/create.blade.php を編集して、氏名(name)、性別(gender)、趣味(hobby)、自己紹介欄(introduction)を入力するフォームを作成してください。また、formの送信先(<form action=”この部分”>)を、 Admin\ProfileController の create Action に指定してください。(ヒント: resources/views/admin/news/create.blade.php)
+https://gyazo.com/69962bf7aa72871f22e6cac31922427e
+
+5.【応用】 4. ができたら、 /admin/profile/create にアクセスしてみましょう。
+https://gyazo.com/eda35ce29d226f8041b4499345255c96
+
+6.【応用】 routes/web.php を編集して、 admin/profile/edit に postメソッドでアクセスしたら ProfileController の update Action に割り当てるように設定してください。
+https://gyazo.com/193b4a42e95d1596ce5fa4186229b1c7
