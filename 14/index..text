@@ -1,0 +1,21 @@
+1.データベースとテーブルの関係を説明してください。
+ テーブルはデータベースの一部。Excelのように行（テーブル）があり、データを保存している。
+ 
+2.テーブルを作成するときに事前にしなければならないことはなんですか？
+ マイグレーションファイルを編集し、必要なカラムを追加しておくこと。
+ 
+3.Validationはどのような役目をしていますか？
+ 入力時のルールを設定する役割。
+ 　例）require:入力必須
+ 　     max:文字制限
+ 
+4.【応用】 create_profiles_table というMigrationの雛形ファイルを作成し、 profilesというテーブル名で名前(name)、性別(gender)、趣味(hobby)、自己紹介(introduction)を保存できるように修正して、 migrateしてテーブルを作成しましょう。
+ https://gyazo.com/513688641d5ed57609416b56e8ca02e2
+5.【応用】 Modelを作成するコマンドで Profile というModelを作成し、 名前(name)、性別(gender)、趣味(hobby)、自己紹介(introduction)に対してValidationをかけるようにしてみましょう。
+ https://gyazo.com/2343eb078eebbba3a31cc28554b6ff3a
+ 
+6.【応用】 resources/views/admin/profile/create.blade.php を開いて、Validationでエラーが発生した場合にエラーが表示されるようになっているか確認してみましょう。
+ 判定してるコード：https://gyazo.com/e00f3c204d11e4a9ba5ab0a9d98df04d
+ ブラウザ：https://gyazo.com/b68bb9883b73b578b67079311f154f1b
+ 　　　　　　　　　https://gyazo.com/df727a4df1954abe9a9dabb8541bcc68
+ 
