@@ -10,7 +10,7 @@
  　     max:文字制限
  
 4.【応用】 create_profiles_table というMigrationの雛形ファイルを作成し、 profilesというテーブル名で名前(name)、性別(gender)、趣味(hobby)、自己紹介(introduction)を保存できるように修正して、 migrateしてテーブルを作成しましょう。
- https://gyazo.com/513688641d5ed57609416b56e8ca02e2
+ https://gyazo.com/62acc2edbaac65b4e9a45f35ed8b579c
 5.【応用】 Modelを作成するコマンドで Profile というModelを作成し、 名前(name)、性別(gender)、趣味(hobby)、自己紹介(introduction)に対してValidationをかけるようにしてみましょう。
  https://gyazo.com/2343eb078eebbba3a31cc28554b6ff3a
  
