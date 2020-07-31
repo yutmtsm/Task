@@ -16,6 +16,6 @@
  
 6.【応用】 resources/views/admin/profile/create.blade.php を開いて、Validationでエラーが発生した場合にエラーが表示されるようになっているか確認してみましょう。
  判定してるコード：https://gyazo.com/e00f3c204d11e4a9ba5ab0a9d98df04d
- ブラウザ：https://gyazo.com/b68bb9883b73b578b67079311f154f1b
- 　　　　　　　　　https://gyazo.com/df727a4df1954abe9a9dabb8541bcc68
+ ブラウザ：https://gyazo.com/b68bb9883b73b578b67079311f154f1b　
+ https://gyazo.com/df727a4df1954abe9a9dabb8541bcc68
  
