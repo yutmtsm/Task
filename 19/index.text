@@ -1,0 +1,16 @@
+1.【超応用】 Controllersディレクト直下にProfileControllerを新規で作成、index Action を作成し、
+プロフィール情報を取得して profile/index.blade.php というViewテンプレートにプロフィール情報を渡して描画するように実装してください。
+ 画像
+　　https://gyazo.com/537517f0ebd80d971643d7b67837553d
+　github
+　　ProfileController.php
+ 　　https://github.com/yutmtsm/Laravel/blob/master/app/Http/Controllers/ProfileController.php
+ 　index.blade.php
+ 　　https://github.com/yutmtsm/Laravel/blob/master/resources/views/profile/index.blade.php
+ 
+2.【応用】 routes/web.phpを編集して、 /profile にアクセスが来たら ProfileController/index Action に渡すように設定してください。
+　画像
+　　https://gyazo.com/9138c1c83e094db09452d6383c4b46e0
+　github
+　　https://github.com/yutmtsm/Laravel/blob/master/routes/web.php
+　　
