@@ -1,0 +1,23 @@
+1.【超応用】 プロフィールの更新履歴を保存する仕組みを作るにはどのようにしたらよいでしょうか。手順をまとめてみましょう。（どうしてもわからなからない場合はメンターに相談してみましょう。）
+　手順
+ 　1.プロフィール情報とは別に、更新履歴を管理するマイグレーションファイルを作成する。
+ 　2.作成したファイルに更新履歴を扱うのに必要な入れ物を記載し、マイグレーションを実行する。
+ 　3.Modelを作成し、必要に応じてValidateを記載する。
+ 　4.更新履歴情報を付与したいデータテーブルに関連付けて定義を記載する。
+ 　5.更新処理を行うActionに更新情報を追記する為のプログラムを追記する。
+ 　 追記方法⇨
+ 　 5-1.更新情報は更新の都度必要なので、更新Actiondeで都度インスタンスを作成する。
+ 　 5-2.日付操作ライブラリCarbonを取得する為、冒頭に「use Carbon\Carbon;」を追記（関連するModelを忘れずに）。
+ 　   For example: $history->edited_at = Carbon::now('Asia/Tokyo');
+ 　 5-3.save();で保存して使用。
+
+2.【超応用】 1. ができたら実際にプロフィールの更新履歴を保存する仕組みを作成してみましょう。
+　○画像データ
+　　https://gyazo.com/b844b889c3f7e159fa0213e7a7040830
+　○github
+　　https://github.com/yutmtsm/Laravel/blob/master/app/Profile.php
+　　https://github.com/yutmtsm/Laravel/blob/master/app/Changelog.php
+　　https://github.com/yutmtsm/Laravel/blob/master/app/Http/Controllers/Admin/ProfileController.php
+　　https://github.com/yutmtsm/Laravel/blob/master/database/migrations/2020_08_01_063107_create_changelogs_table.php
+　　https://github.com/yutmtsm/Laravel/blob/master/resources/views/admin/profile/edit.blade.php
+　　
